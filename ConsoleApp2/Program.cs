@@ -15,7 +15,7 @@ namespace ConsoleApp2
             int a1 = (a * a);
             int b1 = (b * b);
 
-            int c = (a1 * b1);
+            int c = (a1 + b1);
            var c1 = Math.Sqrt(c);
             Console.WriteLine("Długość przekątnej to: " + c1);
         }
